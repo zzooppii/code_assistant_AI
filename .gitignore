@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+
+# Environment variables (Sensitive!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.bak
+
+# Analysis and results
+analysis/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Static build folders if any
+dist/
+build/
